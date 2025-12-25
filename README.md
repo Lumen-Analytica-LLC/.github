@@ -1,80 +1,105 @@
-# Lumen Analytica LLC
+# GitHub Profiles
 
-**Clarity through data. Decisions with rigor.**
+This repository contains the **organization profile page** for [Lumen Analytica LLC](https://github.com/lumen-analytica) on GitHub.
 
-Lumen Analytica is a data analytics and engineering firm focused on turning fragmented, operational data into **trustworthy analytical systems** that support real decision-making.  
-We specialize in building **practical, auditable, and reproducible data platforms** for organizations that need more than spreadsheets—but less than enterprise bloat.
+## 📋 What This Repository Does
 
-## What We Do
+GitHub automatically displays the content from [`profile/README.md`](profile/README.md) on our organization's landing page at:  
+**https://github.com/lumen-analytica**
 
-### 🔹 Data Engineering & Warehousing
+This special `.github` repository serves as the "front door" to our organization, providing visitors with:
 
-- PostgreSQL–based analytical warehouses (on-prem or hosted)
-- ELT pipelines with Python, dbt, and SQL
-- Bronze / Silver / Gold modeling patterns
-- Data quality checks, lineage, and documentation
+- An overview of what Lumen Analytica does
+- Our philosophy and approach to data analytics
+- What types of projects and tools they'll find here
+- Who we serve and how to engage with our work
 
-### 🔹 Analytics & Decision Support
+## 📂 Repository Structure
 
-- KPI and metric definition
-- Dashboards and lightweight BI (Dash, Metabase, custom apps)
-- Operations research, optimization, and simulation models
-- Scenario analysis for planning and forecasting
+```bash
+.github/
+├── README.md          # This file (documentation about the repo itself)
+└── profile/
+    └── README.md      # The organization landing page content
+```
 
-### 🔹 Data Operations (DataOps)
+## ✏️ Making Changes
 
-- Version-controlled data transformations
-- Environment separation (dev / prod)
-- Scheduled jobs and automation
-- Reproducible infrastructure via Docker and IaC principles
+### Updating the Organization Profile
 
-## Our Philosophy
+To update what appears on the Lumen Analytica organization page:
 
-We believe:
-- **Data should be explainable**, not magical  
-- **Models should be inspectable**, not opaque  
-- **Systems should scale in complexity only when justified**
+1. **Edit the profile README:**
 
-Our work emphasizes:
-- Strong schemas over ad-hoc queries  
-- Declarative transformations over hidden logic  
-- Engineering discipline applied to analytics
+   ```bash
+   # Navigate to the repository
+   cd .github
+   
+   # Edit the organization profile
+   open profile/README.md
+   # or use your preferred editor:
+   # code profile/README.md
+   # vim profile/README.md
+   ```
 
-## Repositories You’ll Find Here
+2. **Make your changes:**
 
-This organization contains:
+   - Update company information, services, or philosophy
+   - Add or remove sections as needed
+   - Keep the tone professional and informative
+   - Use clear markdown formatting
 
-- 📦 **Reference architectures** for analytics platforms
-- 🧪 **Prototypes and experiments** in data modeling and optimization
-- 🛠️ **Internal tooling** for ingestion, validation, and automation
-- 📚 **Templates and examples** for clients and partners
+3. **Preview locally** (optional):
 
-Pinned repositories highlight our core approaches and recommended patterns.
+   - Use a markdown preview tool
+   - Or check the rendered view in your editor
 
-## Who This Is For
+4. **Commit and push:**
 
-We work especially well with:
+   ```bash
+   git add profile/README.md
+   git commit -m "Update organization profile"
+   git push origin main
+   ```
 
-- Small to mid-sized organizations
-- Universities and research groups
-- Healthcare and higher-education institutions
-- Teams that are Excel-heavy but data-hungry
-- Organizations without large internal engineering teams
+5. **Verify:**
+   - Visit https://github.com/lumen-analytica
+   - Changes should appear within a few seconds
 
-## Collaboration & Usage
+### Style Guidelines
 
-Some repositories are:
+When editing the profile:
 
-- ✅ Open for reference and reuse  
-- 🔒 Internal or client-specific  
-- 🧠 Experimental by design  
+- **Keep it concise** – visitors scan quickly
+- **Use clear headings** – make content scannable
+- **Include emojis sparingly** – for visual breaks only
+- **Focus on value** – what we do, not just who we are
+- **Link to key repositories** – when relevant
+- **Maintain professional tone** – authoritative but approachable
 
-Please review individual repository READMEs for usage, licensing, and maturity level.
+### Other Organization-Wide Settings
 
-## About Lumen Analytica
+This repository can also contain:
 
-Lumen Analytica LLC is a U.S.-based data consulting firm.  
-Our name reflects our goal: **to bring light (lumen) to complex analytical problems** through sound engineering and thoughtful modeling.
+- **`.github/workflows/`** – Organization-level GitHub Actions
+- **`.github/ISSUE_TEMPLATE/`** – Default issue templates
+- **`.github/PULL_REQUEST_TEMPLATE.md`** – Default PR template
+- **`.github/FUNDING.yml`** – Sponsorship configuration
 
-*Build systems that can be understood.  
-Deliver insights that can be trusted.*
+These are not currently in use but can be added as needed.
+
+## 🔍 Additional Resources
+
+- [GitHub Docs: About organization profiles](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile)
+- [Markdown Guide](https://www.markdownguide.org/basic-syntax/)
+- [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
+
+## 🤝 Contributing
+
+This repository is maintained by Lumen Analytica team members. If you're on the team:
+
+- Feel free to propose updates via pull request
+- Or edit directly if you have write access
+- Keep changes aligned with our brand and messaging
+
+**Questions?** Contact the Lumen Analytica team.
